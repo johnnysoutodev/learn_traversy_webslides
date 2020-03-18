@@ -1,0 +1,46 @@
+.background{
+    background-image: url(../images/background.png);
+}
+
+.bg-gradient-white a {
+  color: #427fab !important; }
+
+.bg-primary {
+    background-color: #427fab !important; }
+
+button,
+input,
+select,
+textarea,
+button[type='submit'],
+input[type='submit'],
+.button,
+.button:hover,
+button[type='submit']:hover,
+input[type='submit']:hover {
+  border: 1px solid #427fab !important; }
+
+button[type='submit'],
+input[type='submit'],
+.button,
+.button:hover,
+button[type='submit']:hover,
+input[type='submit']:hover {
+  background-color: #427fab !important;
+  color: #fff;
+  text-shadow: 0 1px 0 #123; }
+
+.bg-white a.button.ghost,
+.bg-gradient-white a.button.ghost {
+  border: 1px solid #427fab !important;
+  color: #333; }
+
+  fieldset {
+    background-color: rgba(0, 20, 80, 0.2);
+    border: 1px solid #427fab !important; }
+
+@media (min-width:1200px){
+
+    .flexblock.features li img {
+      width: 95% !important; }
+}
